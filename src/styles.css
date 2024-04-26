@@ -1,0 +1,90 @@
+*  {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+html {
+    color: black;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto;
+    max-width: 1120px;
+    background: linear-gradient(150deg, white, #18dcff);
+    background-size: 120% 120%;
+}
+
+.titulo-sorteio {
+    font-size: 90px;
+    color: black;
+    text-align: center;
+}
+
+#participantes {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+#qas-da-fernanda {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#resultado {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#botao-sortear {
+    background: none;
+    border: 1px solid black;
+    border-radius: 15px;
+    color: black;
+    width: 180px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 18px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#botao-sortear:hover {
+    background-color: #17c0eb;
+    transition: 0.3s;
+}
+
+footer {
+    text-align: center;
+    font-size: 25px;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.dev-qa-name {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 7px;
+}
+
+.gif-kawaii {
+    width: 70px;
+}
+
+.animate-bottom {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
