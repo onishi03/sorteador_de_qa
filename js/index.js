@@ -1,25 +1,27 @@
 const list = [
   "Adilson",
   "Amanda",
-  "Assíria",
+  "Assiria",
   "Caio",
   "Crislaine",
   "Deborah",
   "Edna",
   "Eduardo",
-  "Felipe",
+  "Filipe",
   "Gabriel",
   "Guilherme",
   "Gustavo",
+  "Joice",
   "Juan",
   "Kleiton",
   "Lizandra",
   "Onishi",
-  "Roger",
+  "Rogger",
   "Joice",
   "Sabrina",
   "Stephany",
   "Sheila",
+  "Steve",
   "Wallace",
 ];
 
@@ -33,7 +35,7 @@ function qaNames() {
   escreverVencedor.innerHTML = `
         
     <div class="animate-bottom">
-       <h2>Parabéns,</h2>
+       <h2>Parabéns</h2>
        <p>${list[result]}</p>
    </div>        
    `;
